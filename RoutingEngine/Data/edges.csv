@@ -1,0 +1,676 @@
+from,to,length_m,road_type,maxspeed,oneway,bridge,name
+0,163,94.5,secondary,40,False,,Maitland Crescent
+0,177,47.1,tertiary,40,False,,Gregory's Road
+1,0,69.2,secondary,40,True,,Maitland Crescent
+1,318,127.0,secondary,60,False,,Maitland Crescent
+2,110,206.3,primary,60,False,,Sir Marcus Fernando Mawatha
+2,120,90.9,primary,60,True,,Albert Crescent
+3,146,65.8,secondary,50,True,,Ven. Baddegama Wimalawansa Thero Mawatha (Dean's Road)
+4,64,214.0,secondary,50,True,,T. B. Jayah Mawatha
+5,284,8.2,primary,50,True,,Dr. Colvin R. de Silva Mawatha (Union Place)
+6,74,77.1,tertiary,50,False,,Barnes Place
+6,190,196.4,secondary,50,True,,Dr. C. W. W. Kannangara Mawatha (Alexandra Place)
+7,78,76.9,tertiary,50,False,,Rosmead Place
+7,249,98.6,secondary,50,True,,Dr. C. W. W. Kannangara Mawatha (Alexandra Place)
+8,9,109.3,primary,50,False,,Ward Place
+8,28,92.9,tertiary,40,False,,Kynsey Place
+8,255,44.0,primary,50,False,,Ward Place
+9,8,109.3,primary,50,False,,Ward Place
+9,90,55.9,secondary,50,False,,Wijerama Mawatha (McCarthy Road)
+9,203,66.8,primary,50,False,,Ward Place
+10,161,106.9,secondary,50,False,,Wijerama Mawatha (McCarthy Road)
+10,251,67.4,secondary,50,False,,Wijerama Mawatha (McCarthy Road)
+10,353,175.9,tertiary,50,False,,Rosmead Place
+11,87,105.5,trunk,60,False,,Horton Place
+11,155,88.2,secondary,50,False,,Wijerama Mawatha (McCarthy Road)
+12,21,164.7,trunk,60,False,,Sir James Peiris Mawatha
+12,322,7.8,trunk,60,False,,Sir James Peiris Mawatha
+13,50,152.4,residential,30,True,,Deshamanya H.K Dharmadasa Mawatha
+13,69,16.5,trunk,60,False,,Sir James Peiris Mawatha
+14,133,99.5,trunk,60,False,,Sir Ernest de Silva Mawatha
+14,303,52.7,secondary,50,True,,Cambridge Place
+15,24,36.5,primary,60,False,,Sir Marcus Fernando Mawatha
+15,139,88.1,residential,30,False,,
+15,307,70.2,primary,60,False,,Sir Marcus Fernando Mawatha
+16,83,4.0,trunk,60,False,,Horton Place
+16,334,22.1,trunk,60,True,,Horton Place
+17,30,49.8,residential,30,False,,Dawson Street
+17,187,19.8,residential,30,False,,Braybrooke Place
+17,299,67.1,residential,30,False,,Braybrooke Place
+18,108,9.5,secondary,60,True,,Dr. C. W. W. Kannangara Mawatha (Alexandra Place)
+18,206,42.5,secondary,50,True,,F. R. Senanayake Mawatha
+19,20,241.6,residential,30,False,,Muttiah Road
+19,322,56.2,trunk,60,False,,Sir James Peiris Mawatha
+19,335,289.6,trunk,60,False,,Sir James Peiris Mawatha
+20,19,241.6,residential,30,False,,Muttiah Road
+20,298,49.9,residential,,True,,Muttiah Road
+21,12,164.7,trunk,60,False,,Sir James Peiris Mawatha
+21,60,93.1,trunk,60,False,,Sir James Peiris Mawatha
+22,37,77.7,secondary,60,True,,Philip Gunawardena Mawatha
+22,344,24.1,primary,60,True,,Independence Avenue
+23,62,90.1,residential,30,False,,Hunupitiya Road
+23,325,58.6,tertiary,40,True,,Sri Jinarathana Road
+23,327,6.6,tertiary_link,,False,,
+24,15,36.5,primary,60,False,,Sir Marcus Fernando Mawatha
+24,110,15.8,primary,60,False,,Sir Marcus Fernando Mawatha
+24,123,102.4,residential,30,False,,
+25,185,159.3,secondary,60,True,,Dr. C. W. W. Kannangara Mawatha (Alexandra Place)
+25,190,23.6,trunk,60,True,,Alexandra Roundabout
+26,188,6.3,trunk,60,True,,Alexandra Roundabout
+27,125,127.7,trunk,60,False,,Sir Ernest de Silva Mawatha
+27,134,27.6,trunk,60,False,,Sir Ernest de Silva Mawatha
+28,8,92.9,tertiary,40,False,,Kynsey Place
+28,330,213.4,residential,,False,,
+29,30,142.0,residential,30,False,,Dawson Street
+29,53,207.4,residential,40,False,,Dawson Street
+29,278,230.9,primary,50,False,,Dr. Colvin R. de Silva Mawatha (Union Place)
+29,311,205.2,primary,50,False,,Dr. Colvin R. de Silva Mawatha (Union Place)
+30,17,49.8,residential,30,False,,Dawson Street
+30,29,142.0,residential,30,False,,Dawson Street
+30,141,66.7,residential,30,True,,
+31,194,13.7,tertiary,40,True,,
+32,37,68.0,secondary,60,True,,Philip Gunawardena Mawatha
+33,99,10.2,tertiary,40,False,,Park Street
+33,102,323.7,secondary,60,True,,Srimath Anagarika Dharmapala Mawatha
+34,55,109.9,residential,30,False,,W. A. D. Ramanayake Mawatha
+34,117,42.2,residential,30,False,,
+34,118,53.7,residential,30,False,,
+35,294,205.5,tertiary,40,True,,Park Street
+36,69,152.7,trunk,60,False,,Sir James Peiris Mawatha
+36,335,59.9,trunk,60,False,,Sir James Peiris Mawatha
+37,224,55.0,secondary,50,True,,Dr. Premasiri Khemadasa Mawatha (Guildford Crescent)
+38,144,47.4,tertiary,40,False,,Arnold Ratnayake Road
+38,279,81.8,tertiary,40,False,,Arnold Ratnayake Road
+39,40,3.7,primary,60,True,,Lipton Circus
+40,41,18.4,primary,60,True,,Lipton Circus
+40,336,35.0,primary,60,True,,
+41,65,4.7,primary,60,True,,Lipton Circus
+42,360,2.0,primary,60,True,,Lipton Circus
+43,45,20.8,primary,60,True,,De Soysa Circus
+43,312,28.5,secondary,60,True,,Ven. Baddegama Wimalawansa Thero Mawatha (Dean's Road)
+44,45,38.4,secondary,60,True,,Ven. Baddegama Wimalawansa Thero Mawatha (Dean's Road)
+44,330,235.8,secondary,40,False,,E. W. Perera Mawatha (Regent Street)
+45,361,0.9,primary,60,True,,De Soysa Circus
+46,7,209.3,secondary,50,True,,Dr. C. W. W. Kannangara Mawatha (Alexandra Place)
+46,47,24.4,primary,60,True,,De Soysa Circus
+47,48,3.0,primary,60,True,,De Soysa Circus
+48,41,79.5,primary,60,True,,
+48,57,27.5,primary,60,True,,De Soysa Circus
+49,272,267.3,residential,30,True,,Foster Lane
+49,317,145.9,primary,50,True,,Dr. Colvin R. de Silva Mawatha (Union Place)
+50,145,144.3,primary,50,False,,Dr. Colvin R. de Silva Mawatha (Union Place)
+50,304,83.4,living_street,30,False,,
+51,52,85.8,residential,40,False,,
+51,85,51.0,trunk,60,False,,Horton Place
+51,263,34.1,trunk,60,False,,Horton Place
+52,51,85.8,residential,40,False,,
+53,29,207.4,residential,40,False,,Dawson Street
+53,283,464.7,tertiary,40,False,,Vauxhall Street
+54,230,87.9,primary,60,True,,Independence Avenue
+55,34,109.9,residential,30,False,,W. A. D. Ramanayake Mawatha
+55,62,137.0,residential,30,False,,Hunupitiya Road
+56,35,48.8,tertiary_link,40,True,,
+56,118,45.2,tertiary,40,True,,Hyde Park Corner
+57,43,8.2,primary,60,True,,De Soysa Circus
+58,97,111.3,residential,30,False,,
+59,62,142.5,residential,30,False,,Lake Crescent
+59,320,4.8,residential,30,False,,Lake Crescent
+59,329,42.9,tertiary,40,True,,Sri Jinarathana Road
+60,21,93.1,trunk,60,False,,Sir James Peiris Mawatha
+60,61,104.2,residential,30,False,,W. A. D. Ramanayake Mawatha
+60,287,53.9,trunk,60,False,,Sir James Peiris Mawatha
+61,60,104.2,residential,30,False,,W. A. D. Ramanayake Mawatha
+61,70,87.3,residential,30,True,,W. A. D. Ramanayake Mawatha
+62,23,90.1,residential,30,False,,Hunupitiya Road
+62,55,137.0,residential,30,False,,Hunupitiya Road
+62,59,142.5,residential,30,False,,Lake Crescent
+63,12,79.7,tertiary,40,True,,Sri Jinarathana Road
+63,321,6.1,residential,30,False,,Hunupitiya Lake Road
+63,343,125.3,residential,30,True,,Hunupitiya Lake Road
+64,149,11.8,secondary,50,True,,T. B. Jayah Mawatha
+64,279,7.3,tertiary,40,False,,Arnold Ratnayake Road
+65,42,15.2,primary,60,True,,Lipton Circus
+65,66,25.0,secondary,60,True,,Srimath Anagarika Dharmapala Mawatha
+66,93,195.9,secondary,60,True,,Srimath Anagarika Dharmapala Mawatha
+67,193,23.3,tertiary,40,True,,
+67,294,22.0,tertiary,40,True,,Sri Jinarathana Road
+68,289,14.2,trunk,60,False,,Sir Ernest de Silva Mawatha
+68,297,67.8,trunk,60,False,,Sir Ernest de Silva Mawatha
+69,13,16.5,trunk,60,False,,Sir James Peiris Mawatha
+69,36,152.7,trunk,60,False,,Sir James Peiris Mawatha
+70,55,116.0,residential,30,True,,W. A. D. Ramanayake Mawatha
+70,98,124.9,residential,30,True,,Hunupitiya Cross Road
+71,72,67.1,trunk,60,False,,Sir Ernest de Silva Mawatha
+71,288,71.9,trunk,60,False,,Sir Ernest de Silva Mawatha
+72,71,67.1,trunk,60,False,,Sir Ernest de Silva Mawatha
+72,134,19.0,trunk,60,False,,Sir Ernest de Silva Mawatha
+73,74,97.8,residential,30,False,,
+74,6,77.1,tertiary,50,False,,Barnes Place
+74,73,97.8,residential,30,False,,
+74,337,20.4,tertiary,50,False,,Barnes Place
+75,76,86.6,residential,30,False,,Cosmos Avenue
+76,75,86.6,residential,30,False,,Cosmos Avenue
+76,212,19.8,tertiary,50,False,,Barnes Place
+76,337,44.4,tertiary,50,False,,Barnes Place
+77,78,105.5,residential,30,False,,Arcadia Gardens
+78,7,76.9,tertiary,50,False,,Rosmead Place
+78,77,105.5,residential,30,False,,Arcadia Gardens
+78,80,26.3,tertiary,50,False,,Rosmead Place
+79,80,66.8,residential,30,False,,
+80,78,26.3,tertiary,50,False,,Rosmead Place
+80,79,66.8,residential,30,False,,
+80,257,48.6,tertiary,50,False,,Rosmead Place
+81,85,6.0,trunk,60,False,,Horton Place
+81,86,103.3,residential,30,False,,Arunachalam Avenue
+81,167,52.9,trunk,60,False,,Horton Place
+82,83,84.4,residential,30,False,,
+83,16,4.0,trunk,60,False,,Horton Place
+83,82,84.4,residential,30,False,,
+83,167,29.3,trunk,60,False,,Horton Place
+84,85,48.0,residential,30,False,,
+85,51,51.0,trunk,60,False,,Horton Place
+85,81,6.0,trunk,60,False,,Horton Place
+85,84,48.0,residential,30,False,,
+86,81,103.3,residential,30,False,,Arunachalam Avenue
+87,11,105.5,trunk,60,False,,Horton Place
+87,153,74.2,residential,30,False,,
+87,239,10.2,trunk,60,False,,Horton Place
+88,89,105.6,residential,30,False,,Sukhastan Garden
+89,88,105.6,residential,30,False,,Sukhastan Garden
+89,92,92.2,primary,50,False,,Ward Place
+89,255,31.5,primary,50,False,,Ward Place
+90,9,55.9,secondary,50,False,,Wijerama Mawatha (McCarthy Road)
+90,253,40.4,secondary,50,False,,Wijerama Mawatha (McCarthy Road)
+91,92,78.1,residential,30,False,,Mohideen Terrace
+92,89,92.2,primary,50,False,,Ward Place
+92,91,78.1,residential,30,False,,Mohideen Terrace
+92,180,91.0,primary,50,False,,Ward Place
+93,94,6.2,secondary,60,True,,
+94,95,13.1,secondary,60,True,,
+94,205,303.3,secondary,50,True,,F. R. Senanayake Mawatha
+95,96,12.1,secondary,60,True,,
+96,33,248.6,secondary,60,True,,Srimath Anagarika Dharmapala Mawatha
+96,114,19.5,secondary,60,True,,
+97,42,42.6,secondary,60,True,,Srimath Anagarika Dharmapala Mawatha
+97,58,111.3,residential,30,False,,
+98,99,268.4,secondary,60,True,,Srimath Anagarika Dharmapala Mawatha
+99,33,10.2,tertiary,40,False,,Park Street
+99,186,25.4,tertiary,40,False,,Park Street
+99,293,22.8,secondary,60,True,,Srimath Anagarika Dharmapala Mawatha
+100,93,18.7,secondary,60,True,,
+100,115,44.9,secondary,60,True,,Srimath Anagarika Dharmapala Mawatha
+101,98,59.4,secondary,60,True,,Srimath Anagarika Dharmapala Mawatha
+101,102,62.2,secondary_link,60,True,,
+102,113,105.4,secondary,60,True,,Sir Marcus Fernando Mawatha
+103,119,56.1,primary_link,60,True,,
+103,307,32.4,primary,60,False,,Sir Marcus Fernando Mawatha
+104,183,26.1,trunk,60,True,,Alexandra Roundabout
+104,196,295.0,trunk,50,True,,Ananda Coomaraswamy Mawatha
+105,104,3.5,trunk,60,True,,Alexandra Roundabout
+106,112,32.0,secondary,60,True,,Sir Marcus Fernando Mawatha
+106,183,702.4,trunk,50,True,,Ananda Coomaraswamy Mawatha
+107,276,8.9,secondary,50,True,,Dr. C. W. W. Kannangara Mawatha (Alexandra Place)
+108,107,12.6,secondary,50,True,,F. R. Senanayake Mawatha
+108,204,23.7,secondary,60,True,,Dr. C. W. W. Kannangara Mawatha (Alexandra Place)
+109,112,52.8,trunk,50,True,,Ananda Coomaraswamy Mawatha
+109,286,70.8,primary_link,60,True,,
+110,2,206.3,primary,60,False,,Sir Marcus Fernando Mawatha
+110,24,15.8,primary,60,False,,Sir Marcus Fernando Mawatha
+111,296,123.0,trunk,50,True,,Ananda Coomaraswamy Mawatha
+112,285,7.6,trunk,60,True,,Ananda Coomaraswamy Mawatha
+113,106,33.9,secondary,60,True,,Sir Marcus Fernando Mawatha
+113,111,72.9,secondary,60,True,,Sir Marcus Fernando Mawatha
+114,100,18.8,secondary,60,True,,
+115,97,131.2,secondary,60,True,,Srimath Anagarika Dharmapala Mawatha
+116,114,41.5,secondary,60,True,,Srimath Anagarika Dharmapala Mawatha
+116,301,39.4,secondary,60,True,,Srimath Anagarika Dharmapala Mawatha
+117,34,42.2,residential,30,False,,
+117,118,35.6,tertiary,40,False,,Park Street
+117,186,94.8,tertiary,40,False,,Park Street
+118,34,53.7,residential,30,False,,
+118,35,48.2,tertiary,40,True,,Park Street
+118,117,35.6,tertiary,40,False,,Park Street
+119,111,41.8,trunk,50,True,,Ananda Coomaraswamy Mawatha
+120,129,142.9,residential,30,False,,Hewa Avenue
+120,132,37.3,primary,60,True,,Albert Crescent
+120,346,124.3,primary,50,True,,Albert Crescent
+121,126,131.5,residential,30,False,,
+121,347,15.7,primary,60,True,,Albert Crescent
+122,128,80.3,residential,30,False,,
+123,24,102.4,residential,30,False,,
+124,125,86.3,residential,30,False,,Cambridge Terrace
+124,130,32.1,residential,30,False,,
+124,138,218.8,residential,30,False,,Cambridge Terrace
+125,27,127.7,trunk,60,False,,Sir Ernest de Silva Mawatha
+125,124,86.3,residential,30,False,,Cambridge Terrace
+125,302,92.7,trunk,60,False,,Sir Ernest de Silva Mawatha
+126,121,131.5,residential,30,False,,
+127,132,117.6,residential,30,False,,Rotherfield Place
+128,122,80.3,residential,30,False,,
+128,222,50.9,living_street,,False,,
+128,314,144.2,secondary,50,True,,Dr. Premasiri Khemadasa Mawatha (Guildford Crescent)
+129,120,142.9,residential,30,False,,Hewa Avenue
+130,124,32.1,residential,30,False,,
+131,137,103.3,residential,30,False,,
+131,227,64.6,secondary,50,True,,Dr. Premasiri Khemadasa Mawatha (Guildford Crescent)
+132,121,63.1,primary,60,True,,Albert Crescent
+132,127,117.6,residential,30,False,,Rotherfield Place
+133,14,99.5,trunk,60,False,,Sir Ernest de Silva Mawatha
+133,302,63.6,trunk,60,False,,Sir Ernest de Silva Mawatha
+134,27,27.6,trunk,60,False,,Sir Ernest de Silva Mawatha
+134,72,19.0,trunk,60,False,,Sir Ernest de Silva Mawatha
+134,219,80.0,residential,30,False,,Saraswathi Place
+135,128,66.9,secondary,50,True,,Dr. Premasiri Khemadasa Mawatha (Guildford Crescent)
+135,136,81.3,residential,30,False,,
+136,135,81.3,residential,30,False,,
+137,131,103.3,residential,30,False,,
+138,124,218.8,residential,30,False,,Cambridge Terrace
+138,313,83.9,secondary,50,True,,Cambridge Place
+139,15,88.1,residential,30,False,,
+140,145,95.8,residential,30,False,,Lillie Street
+141,31,57.1,residential,30,True,,Braybrooke Place
+142,44,148.4,secondary,50,True,,Ven. Baddegama Wimalawansa Thero Mawatha (Dean's Road)
+142,143,195.7,tertiary,40,False,,De Saram Place
+142,271,11.4,tertiary_link,,False,,
+143,142,195.7,tertiary,40,False,,De Saram Place
+143,178,14.4,tertiary,40,False,,De Saram Place
+144,38,47.4,tertiary,40,False,,Arnold Ratnayake Road
+144,148,108.4,tertiary,40,False,,Arnold Ratnayake Road
+145,50,144.3,primary,50,False,,Dr. Colvin R. de Silva Mawatha (Union Place)
+145,140,95.8,residential,30,False,,Lillie Street
+145,311,164.3,primary,50,False,,Dr. Colvin R. de Silva Mawatha (Union Place)
+146,142,299.4,secondary,50,True,,Ven. Baddegama Wimalawansa Thero Mawatha (Dean's Road)
+146,273,9.3,tertiary,40,True,,Vinayalankara Mawatha
+147,47,13.8,secondary,60,True,,Dr. C. W. W. Kannangara Mawatha (Alexandra Place)
+147,66,102.4,secondary_link,60,True,,
+148,144,108.4,tertiary,40,False,,Arnold Ratnayake Road
+148,270,20.9,tertiary,40,True,,Arnold Ratnayake Road
+149,213,222.0,residential,30,False,,Akbar Brother's Road
+149,339,7.3,residential,30,False,,Akbar Brother's Road
+150,151,85.2,residential,30,False,,
+150,210,38.4,tertiary,50,False,,Rosmead Place
+150,355,19.5,tertiary,50,False,,Rosmead Place
+151,150,85.2,residential,30,False,,
+152,156,88.5,secondary,50,False,,Wijerama Mawatha (McCarthy Road)
+152,159,39.1,secondary,50,False,,Wijerama Mawatha (McCarthy Road)
+152,171,35.8,tertiary,50,False,,Barnes Place
+153,87,74.2,residential,30,False,,
+154,155,32.6,residential,30,False,,
+155,11,88.2,secondary,50,False,,Wijerama Mawatha (McCarthy Road)
+155,154,32.6,residential,30,False,,
+155,156,6.7,secondary,50,False,,Wijerama Mawatha (McCarthy Road)
+156,152,88.5,secondary,50,False,,Wijerama Mawatha (McCarthy Road)
+156,155,6.7,secondary,50,False,,Wijerama Mawatha (McCarthy Road)
+157,158,90.0,residential,40,False,,
+157,218,38.6,trunk,60,False,,Horton Place
+157,263,21.4,trunk,60,False,,Horton Place
+158,157,90.0,residential,40,False,,
+159,152,39.1,secondary,50,False,,Wijerama Mawatha (McCarthy Road)
+159,160,34.2,residential,30,False,,
+159,164,48.1,secondary,50,False,,Wijerama Mawatha (McCarthy Road)
+160,159,34.2,residential,30,False,,
+161,10,106.9,secondary,50,False,,Wijerama Mawatha (McCarthy Road)
+161,164,10.2,secondary,50,False,,Wijerama Mawatha (McCarthy Road)
+162,163,106.2,residential,40,False,,
+163,0,94.5,secondary,40,False,,Maitland Crescent
+163,162,106.2,residential,40,False,,
+163,242,54.1,secondary,40,False,,Maitland Crescent
+164,159,48.1,secondary,50,False,,Wijerama Mawatha (McCarthy Road)
+164,161,10.2,secondary,50,False,,Wijerama Mawatha (McCarthy Road)
+164,165,36.3,residential,30,False,,
+165,164,36.3,residential,30,False,,
+166,169,49.2,residential,30,False,,Rajapaksha Mawatha
+166,218,23.1,trunk,60,False,,Horton Place
+166,239,43.4,trunk,60,False,,Horton Place
+167,81,52.9,trunk,60,False,,Horton Place
+167,83,29.3,trunk,60,False,,Horton Place
+167,168,81.3,residential,30,False,,Ahmed Terrace
+168,167,81.3,residential,30,False,,Ahmed Terrace
+169,166,49.2,residential,30,False,,Rajapaksha Mawatha
+170,172,34.2,residential,30,False,,
+171,152,35.8,tertiary,50,False,,Barnes Place
+171,172,18.1,tertiary,50,False,,Barnes Place
+171,215,32.4,residential,30,False,,
+172,170,34.2,residential,30,False,,
+172,171,18.1,tertiary,50,False,,Barnes Place
+172,173,19.7,tertiary,50,False,,Barnes Place
+173,172,19.7,tertiary,50,False,,Barnes Place
+173,216,47.8,residential,30,False,,
+173,349,10.2,tertiary,50,False,,Barnes Place
+174,176,9.7,residential,,False,,
+175,176,25.7,residential,,False,,
+176,174,9.7,residential,,False,,
+176,175,25.7,residential,,False,,
+176,177,58.4,residential,,False,,
+177,0,47.1,tertiary,40,False,,Gregory's Road
+177,176,58.4,residential,,False,,
+177,233,78.1,tertiary,40,False,,Gregory's Road
+178,143,14.4,tertiary,40,False,,De Saram Place
+178,179,135.7,tertiary,50,True,,Norris Canal Road
+179,330,19.4,secondary,40,False,,E. W. Perera Mawatha (Regent Street)
+180,92,91.0,primary,50,False,,Ward Place
+180,362,77.0,primary,50,True,,Ward Place
+181,182,50.7,living_street,,False,,
+181,281,255.0,tertiary,40,True,,Vinayalankara Mawatha
+182,181,50.7,living_street,,False,,
+183,25,4.4,trunk,60,True,,Alexandra Roundabout
+184,101,224.8,secondary,60,True,,Srimath Anagarika Dharmapala Mawatha
+184,287,110.6,trunk,60,False,,Sir James Peiris Mawatha
+185,18,80.4,secondary,60,True,,Dr. C. W. W. Kannangara Mawatha (Alexandra Place)
+185,206,114.6,secondary_link,50,True,,
+186,99,25.4,tertiary,40,False,,Park Street
+186,117,94.8,tertiary,40,False,,Park Street
+186,293,34.6,secondary_link,,True,,
+187,17,19.8,residential,30,False,,Braybrooke Place
+187,141,21.7,residential,30,True,,Braybrooke Place
+188,105,27.9,trunk,60,True,,Alexandra Roundabout
+188,267,63.9,primary,60,True,,Dr. C. W. W. Kannangara Mawatha (Alexandra Place)
+189,26,14.8,trunk,60,True,,Alexandra Roundabout
+189,351,123.0,trunk,60,True,,Horton Place
+190,189,3.8,trunk,60,True,,Alexandra Roundabout
+191,298,107.0,residential,30,False,,Braybrooke Place
+191,311,203.6,residential,30,False,,Braybrooke Place
+191,335,179.4,residential,,False,,
+192,31,35.3,tertiary,40,True,,
+192,187,74.3,residential,30,True,,Park Street
+193,195,7.4,tertiary,40,True,,
+194,67,34.5,tertiary,40,True,,
+194,292,246.0,tertiary,40,True,,Braybrooke Place
+195,192,13.2,tertiary,40,True,,
+196,109,337.7,trunk,50,True,,Ananda Coomaraswamy Mawatha
+196,197,156.8,residential,30,False,,
+197,196,156.8,residential,30,False,,
+198,54,38.1,primary_link,30,True,,
+198,319,23.9,primary,50,True,,Dr. C. W. W. Kannangara Mawatha (Alexandra Place)
+199,54,28.2,primary,60,True,,Dr. C. W. W. Kannangara Mawatha (Alexandra Place)
+199,319,18.0,primary_link,,True,,
+200,5,8.2,secondary,50,True,,T.B. Jaya Mawatha
+200,305,17.6,primary,50,True,,Dr. Colvin R. de Silva Mawatha (Union Place)
+201,202,78.7,residential,30,False,,Thambiyah avenue
+202,22,21.9,primary,60,True,,Independence Avenue
+202,201,78.7,residential,30,False,,Thambiyah avenue
+203,9,66.8,primary,50,False,,Ward Place
+204,147,312.0,secondary,60,True,,Dr. C. W. W. Kannangara Mawatha (Alexandra Place)
+205,108,29.6,secondary,50,True,,F. R. Senanayake Mawatha
+205,204,24.7,secondary_link,50,True,,
+206,95,296.3,secondary,50,True,,F. R. Senanayake Mawatha
+207,208,66.2,residential,30,False,,
+208,207,66.2,residential,30,False,,
+208,259,15.7,tertiary,50,False,,Barnes Place
+208,349,206.3,tertiary,50,False,,Barnes Place
+209,210,77.5,residential,30,False,,
+210,150,38.4,tertiary,50,False,,Rosmead Place
+210,209,77.5,residential,30,False,,
+210,247,49.8,tertiary,50,False,,Rosmead Place
+211,212,78.1,residential,30,False,,
+212,76,19.8,tertiary,50,False,,Barnes Place
+212,211,78.1,residential,30,False,,
+212,261,81.8,tertiary,50,False,,Barnes Place
+213,149,222.0,residential,30,False,,Akbar Brother's Road
+214,103,51.5,primary,60,True,,Sir Marcus Fernando Mawatha
+214,119,12.1,trunk,60,True,,Ananda Coomaraswamy Mawatha
+215,171,32.4,residential,30,False,,
+216,173,47.8,residential,30,False,,
+217,218,104.2,residential,,False,,
+218,157,38.6,trunk,60,False,,Horton Place
+218,166,23.1,trunk,60,False,,Horton Place
+218,217,104.2,residential,,False,,
+219,134,80.0,residential,30,False,,Saraswathi Place
+220,241,62.2,residential,,False,,
+220,310,14.3,secondary,40,False,,Maitland Crescent
+220,359,23.8,secondary,40,False,,Maitland Crescent
+221,313,106.0,living_street,,False,,
+222,128,50.9,living_street,,False,,
+223,224,90.5,living_street,,False,,
+224,131,47.9,secondary,50,True,,Dr. Premasiri Khemadasa Mawatha (Guildford Crescent)
+224,223,90.5,living_street,,False,,
+225,135,62.3,secondary,50,True,,Dr. Premasiri Khemadasa Mawatha (Guildford Crescent)
+225,228,79.5,residential,,False,,
+226,227,79.9,residential,,False,,
+227,225,57.4,secondary,50,True,,Dr. Premasiri Khemadasa Mawatha (Guildford Crescent)
+227,226,79.9,residential,,False,,
+228,225,79.5,residential,,False,,
+229,230,85.0,residential,,False,,
+230,202,78.9,primary,60,True,,Independence Avenue
+230,229,85.0,residential,,False,,
+231,232,77.7,residential,,False,,
+232,54,59.2,primary,60,True,,Albert Crescent
+232,231,77.7,residential,,False,,
+233,177,78.1,tertiary,40,False,,Gregory's Road
+233,244,41.8,tertiary,40,False,,R.G. Senanayake Mawatha (Gregory's Road)
+234,236,31.0,tertiary,40,False,,R.G. Senanayake Mawatha (Gregory's Road)
+234,238,35.8,tertiary,40,False,,R.G. Senanayake Mawatha (Gregory's Road)
+235,236,100.6,residential,,False,,
+236,234,31.0,tertiary,40,False,,R.G. Senanayake Mawatha (Gregory's Road)
+236,235,100.6,residential,,False,,
+236,244,9.9,tertiary,40,False,,R.G. Senanayake Mawatha (Gregory's Road)
+237,238,63.5,residential,,False,,
+238,234,35.8,tertiary,40,False,,R.G. Senanayake Mawatha (Gregory's Road)
+238,237,63.5,residential,,False,,
+239,87,10.2,trunk,60,False,,Horton Place
+239,166,43.4,trunk,60,False,,Horton Place
+239,240,96.9,residential,,False,,
+240,239,96.9,residential,,False,,
+241,220,62.2,residential,,False,,
+242,163,54.1,secondary,40,False,,Maitland Crescent
+242,243,55.2,residential,,False,,
+242,359,2.5,secondary,40,False,,Maitland Crescent
+243,242,55.2,residential,,False,,
+244,233,41.8,tertiary,40,False,,R.G. Senanayake Mawatha (Gregory's Road)
+244,236,9.9,tertiary,40,False,,R.G. Senanayake Mawatha (Gregory's Road)
+245,315,68.0,residential,,False,,
+246,247,100.8,residential,,False,,
+247,210,49.8,tertiary,50,False,,Rosmead Place
+247,246,100.8,residential,,False,,
+247,315,50.3,tertiary,50,False,,Rosmead Place
+248,249,67.7,residential,,False,,
+249,107,49.5,secondary,50,True,,Dr. C. W. W. Kannangara Mawatha (Alexandra Place)
+249,248,67.7,residential,,False,,
+250,251,62.1,residential,,False,,
+251,10,67.4,secondary,50,False,,Wijerama Mawatha (McCarthy Road)
+251,250,62.1,residential,,False,,
+251,253,53.0,secondary,50,False,,Wijerama Mawatha (McCarthy Road)
+252,253,76.6,residential,,False,,
+253,90,40.4,secondary,50,False,,Wijerama Mawatha (McCarthy Road)
+253,251,53.0,secondary,50,False,,Wijerama Mawatha (McCarthy Road)
+253,252,76.6,residential,,False,,
+254,255,114.4,residential,,False,,Sukhustan Gardens
+255,8,44.0,primary,50,False,,Ward Place
+255,89,31.5,primary,50,False,,Ward Place
+255,254,114.4,residential,,False,,Sukhustan Gardens
+256,257,62.7,residential,,False,,
+257,80,48.6,tertiary,50,False,,Rosmead Place
+257,256,62.7,residential,,False,,
+257,355,13.7,tertiary,50,False,,Rosmead Place
+258,259,63.3,residential,,False,,
+259,208,15.7,tertiary,50,False,,Barnes Place
+259,258,63.3,residential,,False,,
+259,261,63.3,tertiary,50,False,,Barnes Place
+260,261,57.5,residential,,False,,
+261,212,81.8,tertiary,50,False,,Barnes Place
+261,259,63.3,tertiary,50,False,,Barnes Place
+261,260,57.5,residential,,False,,
+262,263,87.5,residential,,False,,
+263,51,34.1,trunk,60,False,,Horton Place
+263,157,21.4,trunk,60,False,,Horton Place
+263,262,87.5,residential,,False,,
+264,266,17.8,living_street,,False,,
+265,266,27.2,living_street,,False,,
+266,264,17.8,living_street,,False,,
+266,265,27.2,living_street,,False,,
+266,267,109.3,unclassified,,False,,
+267,199,153.0,primary,60,True,,Dr. C. W. W. Kannangara Mawatha (Alexandra Place)
+267,266,109.3,unclassified,,False,,
+269,148,19.3,tertiary,40,True,,Arnold Ratnayake Road
+270,268,28.7,tertiary,40,True,,Arnold Ratnayake Road
+271,142,11.4,tertiary_link,,False,,
+271,272,54.0,secondary,50,True,,Ven. Baddegama Wimalawansa Thero Mawatha (Dean's Road)
+272,273,247.6,secondary,50,True,,Ven. Baddegama Wimalawansa Thero Mawatha (Dean's Road)
+273,181,2.1,tertiary,40,True,,Vinayalankara Mawatha
+273,274,125.7,secondary,50,True,,Ven. Baddegama Wimalawansa Thero Mawatha (Dean's Road)
+274,269,46.2,secondary_link,40,True,,
+274,275,28.6,secondary,50,True,,Ven. Baddegama Wimalawansa Thero Mawatha (Dean's Road)
+275,268,7.9,secondary,50,True,,Ven. Baddegama Wimalawansa Thero Mawatha (Dean's Road)
+275,269,30.5,tertiary,40,True,,Arnold Ratnayake Road
+276,6,41.8,secondary,50,True,,Dr. C. W. W. Kannangara Mawatha (Alexandra Place)
+276,18,12.2,secondary,50,True,,F. R. Senanayake Mawatha
+277,4,262.3,secondary,50,True,,T. B. Jayah Mawatha
+277,200,7.9,primary,50,True,,Dr. Colvin R. de Silva Mawatha (Union Place)
+278,29,230.9,primary,50,False,,Dr. Colvin R. de Silva Mawatha (Union Place)
+278,283,146.2,primary,50,True,,Dr. Colvin R. de Silva Mawatha (Union Place)
+279,38,81.8,tertiary,40,False,,Arnold Ratnayake Road
+279,64,7.3,tertiary,40,False,,Arnold Ratnayake Road
+279,341,125.7,secondary,50,True,,T. B. Jayah Mawatha
+280,306,62.5,secondary,50,True,,T. B. Jayah Mawatha
+280,342,72.9,residential,,False,,
+281,4,6.5,tertiary,40,True,,Vinayalankara Mawatha
+281,280,167.5,secondary,50,True,,T. B. Jayah Mawatha
+282,278,146.8,primary,50,True,,Dr. Colvin R. de Silva Mawatha (Union Place)
+282,283,8.4,tertiary,40,False,,Vauxhall Street
+282,292,174.6,tertiary,40,True,,Hyde Park Corner
+283,53,464.7,tertiary,40,False,,Vauxhall Street
+283,277,55.4,primary,50,True,,Dr. Colvin R. de Silva Mawatha (Union Place)
+283,282,8.4,tertiary,40,False,,Vauxhall Street
+284,277,8.1,secondary,50,True,,T.B. Jaya Mawatha
+284,282,54.1,primary,50,True,,Dr. Colvin R. de Silva Mawatha (Union Place)
+285,214,4.1,trunk,60,True,,Ananda Coomaraswamy Mawatha
+285,286,46.2,primary,,True,,Sir Marcus Fernando Mawatha
+286,110,156.9,primary,60,True,,Sir Marcus Fernando Mawatha
+287,60,53.9,trunk,60,False,,Sir James Peiris Mawatha
+287,184,110.6,trunk,60,False,,Sir James Peiris Mawatha
+288,71,71.9,trunk,60,False,,Sir Ernest de Silva Mawatha
+288,289,24.9,trunk,60,False,,Sir Ernest de Silva Mawatha
+289,68,14.2,trunk,60,False,,Sir Ernest de Silva Mawatha
+289,288,24.9,trunk,60,False,,Sir Ernest de Silva Mawatha
+289,290,58.2,unclassified,,False,,
+290,289,58.2,unclassified,,False,,
+291,307,73.6,unclassified,,False,,
+292,56,115.9,tertiary,40,True,,Hyde Park Corner
+293,116,182.8,secondary,60,True,,Srimath Anagarika Dharmapala Mawatha
+294,59,86.5,tertiary,40,True,,Sri Jinarathana Road
+294,193,21.0,tertiary,40,True,,Park Street
+296,297,62.6,trunk,,True,,Sir Ernest de Silva Mawatha
+296,316,45.3,trunk,50,True,,Ananda Coomaraswamy Mawatha
+297,68,67.8,trunk,60,False,,Sir Ernest de Silva Mawatha
+297,295,74.2,trunk,,True,,Sir Ernest de Silva Mawatha
+298,191,107.0,residential,30,False,,Braybrooke Place
+298,299,38.7,residential,30,False,,Braybrooke Place
+299,17,67.1,residential,30,False,,Braybrooke Place
+299,20,54.1,residential,,True,,Muttiah Road
+299,298,38.7,residential,30,False,,Braybrooke Place
+300,301,150.6,residential,,False,,
+301,300,150.6,residential,,False,,
+301,309,46.7,secondary,60,True,,Srimath Anagarika Dharmapala Mawatha
+302,125,92.7,trunk,60,False,,Sir Ernest de Silva Mawatha
+302,133,63.6,trunk,60,False,,Sir Ernest de Silva Mawatha
+303,138,36.0,secondary,50,True,,Cambridge Place
+304,50,83.4,living_street,30,False,,
+305,49,141.3,primary,50,True,,Dr. Colvin R. de Silva Mawatha (Union Place)
+306,200,34.8,secondary,50,True,,T.B. Jaya Mawatha
+306,305,36.2,secondary_link,,True,,
+307,15,70.2,primary,60,False,,Sir Marcus Fernando Mawatha
+307,103,32.4,primary,60,False,,Sir Marcus Fernando Mawatha
+307,291,73.6,unclassified,,False,,
+308,309,100.5,residential,,False,,
+309,115,15.9,secondary,60,True,,Srimath Anagarika Dharmapala Mawatha
+309,308,100.5,residential,,False,,
+310,220,14.3,secondary,40,False,,Maitland Crescent
+310,333,48.3,secondary,40,True,,Maitland Crescent
+311,29,205.2,primary,50,False,,Dr. Colvin R. de Silva Mawatha (Union Place)
+311,145,164.3,primary,50,False,,Dr. Colvin R. de Silva Mawatha (Union Place)
+311,191,203.6,residential,30,False,,Braybrooke Place
+312,271,148.8,secondary,50,True,,Ven. Baddegama Wimalawansa Thero Mawatha (Dean's Road)
+313,221,106.0,living_street,,False,,
+313,314,23.5,secondary,50,True,,Cambridge Place
+314,2,228.4,secondary,50,True,,Cambridge Place
+315,245,68.0,residential,,False,,
+315,247,50.3,tertiary,50,False,,Rosmead Place
+315,353,24.4,tertiary,50,False,,Rosmead Place
+316,184,124.5,trunk,60,True,,Sir Ernest de Silva Mawatha
+316,295,34.0,trunk,50,True,,Ananda Coomaraswamy Mawatha
+317,39,17.1,primary,50,True,,Dr. Colvin R. de Silva Mawatha (Union Place)
+317,336,48.1,primary_link,50,True,,
+318,1,127.0,secondary,60,False,,Maitland Crescent
+318,32,29.0,secondary,60,True,,Maitland Crescent
+319,105,205.3,primary,50,True,,Dr. C. W. W. Kannangara Mawatha (Alexandra Place)
+320,59,4.8,residential,30,False,,Lake Crescent
+320,195,96.7,tertiary,40,True,,Sri Jinarathana Road
+321,63,6.1,residential,30,False,,Hunupitiya Lake Road
+321,323,38.7,tertiary,40,True,,Sri Jinarathana Road
+322,12,7.8,trunk,60,False,,Sir James Peiris Mawatha
+322,19,56.2,trunk,60,False,,Sir James Peiris Mawatha
+322,321,83.3,tertiary,40,True,,Sri Jinarathana Road
+323,324,6.7,tertiary_link,,False,,
+323,326,24.5,tertiary,40,True,,Sri Jinarathana Road
+324,63,38.2,tertiary,40,True,,Sri Jinarathana Road
+324,323,6.7,tertiary_link,,False,,
+325,324,24.8,tertiary,40,True,,Sri Jinarathana Road
+325,326,7.1,tertiary_link,,False,,
+326,325,7.1,tertiary_link,,False,,
+326,327,55.0,tertiary,40,True,,Sri Jinarathana Road
+327,23,6.6,tertiary_link,,False,,
+327,328,21.3,tertiary,40,True,,Sri Jinarathana Road
+328,320,42.3,tertiary,40,True,,Sri Jinarathana Road
+328,329,6.5,tertiary_link,,False,,
+329,23,22.3,tertiary,40,True,,Sri Jinarathana Road
+329,328,6.5,tertiary_link,,False,,
+330,28,213.4,residential,,False,,
+330,44,235.8,secondary,40,False,,E. W. Perera Mawatha (Regent Street)
+330,179,19.4,secondary,40,False,,E. W. Perera Mawatha (Regent Street)
+331,332,6.8,trunk,60,True,,Horton Place
+332,16,20.8,trunk,60,True,,Horton Place
+332,334,8.8,secondary,40,True,,Maitland Crescent
+333,26,247.3,trunk,60,True,,Horton Place
+333,331,9.2,secondary,40,True,,Maitland Crescent
+334,333,6.9,trunk,60,True,,Horton Place
+334,357,38.1,secondary,40,True,,Maitland Crescent
+335,19,289.6,trunk,60,False,,Sir James Peiris Mawatha
+335,36,59.9,trunk,60,False,,Sir James Peiris Mawatha
+335,191,179.4,residential,,False,,
+336,57,45.5,primary,60,True,,
+336,312,72.5,primary_link,60,True,,
+337,74,20.4,tertiary,50,False,,Barnes Place
+337,76,44.4,tertiary,50,False,,Barnes Place
+337,338,99.0,residential,,False,,
+338,337,99.0,residential,,False,,
+339,149,7.3,residential,30,False,,Akbar Brother's Road
+339,279,12.0,secondary,50,True,,T. B. Jayah Mawatha
+340,341,66.3,residential,,False,,
+341,281,89.1,secondary,50,True,,T. B. Jayah Mawatha
+341,340,66.3,residential,,False,,
+342,280,72.9,residential,,False,,
+343,61,146.2,residential,30,True,,Hunupitiya Lake Road
+343,345,76.1,residential,,False,,
+344,32,18.7,primary,60,True,,Independence Avenue
+344,318,28.1,secondary,60,True,,Maitland Crescent
+345,343,76.1,residential,,False,,
+346,198,82.3,primary,50,True,,Albert Crescent
+347,232,56.4,primary,60,True,,Albert Crescent
+347,346,15.2,primary_link,,True,,
+348,349,50.5,residential,,False,,
+349,173,10.2,tertiary,50,False,,Barnes Place
+349,208,206.3,tertiary,50,False,,Barnes Place
+349,348,50.5,residential,,False,,
+350,351,80.2,residential,,False,,
+351,331,124.1,trunk,60,True,,Horton Place
+351,350,80.2,residential,,False,,
+352,353,66.9,residential,,False,,
+353,10,175.9,tertiary,50,False,,Rosmead Place
+353,315,24.4,tertiary,50,False,,Rosmead Place
+353,352,66.9,residential,,False,,
+354,355,65.1,residential,,False,,
+355,150,19.5,tertiary,50,False,,Rosmead Place
+355,257,13.7,tertiary,50,False,,Rosmead Place
+355,354,65.1,residential,,False,,
+356,357,62.5,residential,,False,,
+357,310,11.8,secondary,40,True,,Maitland Crescent
+357,356,62.5,residential,,False,,
+358,359,40.7,residential,,False,,
+359,220,23.8,secondary,40,False,,Maitland Crescent
+359,242,2.5,secondary,40,False,,Maitland Crescent
+359,358,40.7,residential,,False,,
+360,5,315.1,primary,50,True,,Dr. Colvin R. de Silva Mawatha (Union Place)
+360,39,15.7,primary,60,True,,Lipton Circus
+361,180,80.4,primary,50,True,,Ward Place
+361,362,16.1,primary,60,True,,De Soysa Circus
+362,46,4.2,primary,60,True,,De Soysa Circus

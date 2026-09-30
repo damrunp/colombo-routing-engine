@@ -1,0 +1,15 @@
+# .NET build output
+bin/
+obj/
+
+# Python data-download tools (not part of the C# project)
+venv/
+cache/
+__pycache__/
+download_colombo.py
+area.geojson
+
+# macOS and editor files
+.DS_Store
+.vscode/
+.idea/
